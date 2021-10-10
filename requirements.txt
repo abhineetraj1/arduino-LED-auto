@@ -1,0 +1,4 @@
+pyfirmata
+pyserial
+pyttsx3
+SpeechRecognition
