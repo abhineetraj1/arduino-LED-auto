@@ -1,4 +1,4 @@
-#Arduino LED width python A.I.
+# Arduino LED width python A.I.
 LED blinking with voice command.
 
 Python + Arduino project.
