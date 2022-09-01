@@ -10,7 +10,7 @@ Python + Arduino project.
 ``` pip3 install -r requirements.txt```
 
 4) Run the main.py file
-### Note
+### Note :-
 Make sure that your device is connected with microphone
 
 ## Circuit of Arduino
