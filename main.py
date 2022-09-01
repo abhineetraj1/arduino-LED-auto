@@ -17,31 +17,21 @@ l4=Label(text="Error setting up - restart the app",font=40)
 l5= Label(text="Successfully completed",font=30)
 def check():
 	l3.place(x=2000,y=2000)
+	kh=[]
 	k=""
-	try:
-		ard = Arduino("COM1")
-	except:
+	for i in range(1,6):
 		try:
-			ard=Arduino("COM2")
+			ard=Arduino("COM"+i)
 		except:
-			try:
-				ard=Arduino("COM3")
-			except:
-				try:
-					 ard= Arduino("COM4")
-				except:
-					try:
-						ard=Arduino("COM5")
-					except:
-						try:
-							ard= Arduino("COM6")
-						except:
-							k = "Arduino board is not connected with computer"
+			kh.append(i)
+	if (6 in kh):
+		k="Arduino board is not connected with computer"
+	kh=None
+	##Arduino connectivity
 	if ("127.0.0.1" in socket.gethostbyname(socket.gethostname())):
 		k=k+"\nError - no internet connection"
 	else:
 		k=k
-	sleep(4)
 	if(len(k)>1):
 		pt.speak("Error occurred")
 		msg.showerror("Eric",k)
