@@ -15,11 +15,11 @@ Make sure that your device is connected with microphone
 
 ## Circuit of Arduino
 
-  Pin 2 = Positive terminal of 1k ohms resistor
-  GND   = Negative terminal of the battery
-  5V    = Positive terminal of the battery
-  LED +ve terminal = Resistor -ve Terminal
-  LED -ve terminal = -ve terminal of battery
+*  Pin 2 = Positive terminal of 1k ohms resistor
+*  GND   = Negative terminal of the battery
+*  5V    = Positive terminal of the battery
+*  LED +ve terminal = Resistor -ve Terminal
+*  LED -ve terminal = -ve terminal of battery
 
 ## Execution
 Say "Turn on" on mic to switch on the LED light and "Turn off" on mic to switch off the LED light.
