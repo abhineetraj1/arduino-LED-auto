@@ -23,3 +23,6 @@ Make sure that your device is connected with microphone
 
 ## Execution
 Say "Turn on" on mic to switch on the LED light and "Turn off" on mic to switch off the LED light.
+
+## Programming languages used
+<a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.arduino.cc/header-footer/prod/assets/favicon-arduino/favicon.ico" alt="blender" width="40" height="40"/> </a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
