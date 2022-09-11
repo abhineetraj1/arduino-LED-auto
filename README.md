@@ -8,8 +8,11 @@ Python + Arduino project.
 3) Install python3.X and libraries in requirements.txt
 
 ``` pip3 install -r requirements.txt```
-
-4) Run the main.py file
+4) If your facing problem while installing PyAudio in python, then download PyAudio from [here](https://www.lfd.uci.edu/%7Egohlke/pythonlibs/), according to your system configuration and run:-
+```
+pip3 install filename
+```
+5) Run the main.py file
 ### Note :-
 Make sure that your device is connected with microphone
 
