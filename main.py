@@ -21,7 +21,7 @@ def check():
 	k=""
 	for i in range(1,6):
 		try:
-			ard=Arduino("COM"+i)
+			ard=Arduino("COM"+str(i))
 		except:
 			kh.append(i)
 	if (6 in kh):
