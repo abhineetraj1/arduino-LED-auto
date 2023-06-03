@@ -24,7 +24,7 @@ Make sure that your device is connected with microphone and internet
 ## Circuit of Arduino
 
 | Arduino pin | Electronic device |
-| --- | --- |:----------: |
+| --- |:----------: |
 | Pin 2 | Positive terminal of 1k ohms resistor |
 | GND   | Negative terminal of the battery |
 | 5V    | Positive terminal of the battery |
